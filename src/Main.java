@@ -15,7 +15,6 @@ public class Main {
             System.out.println(it.next());
         }
     }
-
     public static void main(String[] args) {
         testList(new ArrayList());
         testList(new LinkedList());
