@@ -69,7 +69,7 @@ public class Heaps {
         heapify(array,array.length,0);
         System.out.println(Arrays.toString(array));
         int[] array1={3,5,2,4,9,0,1,9,8,4,7,2,3,8,6,3};
-        creatHeap(array1,array.length);
+        creatHeap(array1,array1.length);
         System.out.println(Arrays.toString(array1));
     }
 }
