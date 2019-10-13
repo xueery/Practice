@@ -16,7 +16,7 @@ public class InsertSort {
             int key=array[i+1];
             int j;
             //寻找合适的位置
-            for(j=i;j>=0;i--){
+            for(j=i;j>=0;j--){
                 if(key>=array[j]){
                     break;
                 }
