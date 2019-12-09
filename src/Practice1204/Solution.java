@@ -51,7 +51,6 @@ public class Solution{
         int n=(A.add(B)).intValue();
         return n;
     }
-
     //195:第十行
     public static void printTen() throws IOException {
         FileReader fr=new FileReader("file.txt");
