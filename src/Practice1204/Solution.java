@@ -1,7 +1,5 @@
 package Practice1204;
 
-import com.sun.java.swing.plaf.windows.WindowsInternalFrameTitlePane;
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
