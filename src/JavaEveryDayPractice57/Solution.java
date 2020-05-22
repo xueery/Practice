@@ -2,6 +2,7 @@ package JavaEveryDayPractice57;
 
 //二叉搜索树的后序遍历
 public class Solution {
+    StringBuilder sb=new StringBuilder();
     // 判断一个数组是否为一个二叉搜索树的后序遍历结果
     public boolean VerifySquenceOfBST(int [] sequence) {
         if(sequence==null || sequence.length==0){
