@@ -157,7 +157,7 @@ class HttpTask implements Runnable{
                 }else{
                     // 访问/login.html，转化为访问./login.html
                     InputStream htmlIs = HttpServer.class.getClassLoader()
-                            .getResourceAsStream("."+request.getUrl());
+                            .getResourceAsStream("."+request.getUrl());//表示当前的类的目录
                     if(htmlIs != null){
                         pw.println("HTTP/1.1 200 OK");
                         pw.println("Content-Type: text/html; charset=utf-8");
