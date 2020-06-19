@@ -9,7 +9,7 @@ public class Solution {
     //剪绳子，得到最大乘积
     //根据分析可得当绳子长度大于4时每次剪3可得到最大乘积
     //当绳子长度等于4，最大乘积为4，小于4的话最大乘积乘积为target-1
-    public int cutRope(int target) {
+    public static int cutRope(int target) {
         if(target<=3 && target>-1){
             return target-1;
         }
@@ -19,5 +19,9 @@ public class Solution {
             max*=3;
         }
         return max*target;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(cutRope(6));
     }
 }
