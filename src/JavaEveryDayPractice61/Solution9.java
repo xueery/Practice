@@ -16,6 +16,7 @@ public class Solution9 {
         double ret=((sum-1)/arr.length)*100;
         return ret;
     }
+
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         while(scanner.hasNext()){
