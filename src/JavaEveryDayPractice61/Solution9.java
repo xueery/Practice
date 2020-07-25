@@ -17,6 +17,7 @@ public class Solution9 {
         return ret;
     }
 
+    
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         while(scanner.hasNext()){
