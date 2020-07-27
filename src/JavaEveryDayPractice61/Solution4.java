@@ -13,6 +13,7 @@ public class Solution4 {
         BigInteger n2=new BigInteger(s2);
         return n1.multiply(n2);
     }
+    
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         while (scanner.hasNext()){
