@@ -8,6 +8,7 @@ import java.util.Random;
  * @date:2019/8/27 12:04
  */
 public class TopK {
+    // 找出 k 大的数，建小堆
     public static int[] fineTopK(int[] wulin,int k){
         int[] heaps=new int[k];
         for(int i=0;i<k;i++){
