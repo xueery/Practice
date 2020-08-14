@@ -22,13 +22,14 @@ public class QuickSort {
         }
         //1.确定基准值:array[right]作为基准值
         //2.遍历，小的左，大的右
-        int[] pivotIndex=partition3(array,left,right);
+        //int[] pivotIndex=partition3(array,left,right);
+        int pivotIndex=partition2(array,left,right);
         //分出两个区间
         //[left,pivotIndex-1]
         //[pivotIndex+1,right]
         //3.治
-        quickSortInternal(array,left,pivotIndex[0]-1);
-        quickSortInternal(array,pivotIndex[1]+1,right);
+        quickSortInternal(array,left,pivotIndex-1);
+        quickSortInternal(array,pivotIndex+1,right);
     }
     //快排的非递归写法（用栈实现）
     public static void quickSortNoR(int[] array){
