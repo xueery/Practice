@@ -10,7 +10,6 @@ import static Practice0828.SelectSort.swap;
  * @date:2019/8/29 10:24
  */
 public class QuickSort {
-
     
     public static void quickSort(int[] array){
         int left=0;
