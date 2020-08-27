@@ -8,6 +8,7 @@ import java.util.Scanner;
  */
 // 输入一个"YYYY-MM-dd"格式的日期字符串，输出该天是当年的第几天（1 月 1 日是每年的第 1 天）
 public class Solution6 {
+    
     public static int calDays(int[] array){
         int year=array[0];
         boolean isLeap=false;
