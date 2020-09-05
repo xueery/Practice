@@ -6,7 +6,6 @@ import java.util.Scanner;
  * @author:wangxue
  * @date:2020/7/15 8:52
  */
-
 // 输入一个"YYYY-MM-dd"格式的日期字符串，输出该天是当年的第几天（1 月 1 日是每年的第 1 天）
 public class Solution6 {
 
