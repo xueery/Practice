@@ -7,7 +7,6 @@ import java.util.Scanner;
  * @date:2020/7/15 9:11
  */
 public class Solution7 {
-    
     public static String calMultify(String s1,String s2){
         return null;
     }
