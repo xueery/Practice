@@ -10,6 +10,7 @@ package JianzhiOffer;
 //f[n] = 2*f[n-1];
 //f[0] = f[1]=1;
 public class Solution9 {
+    
     public static int JumpFloorII(int target) {
         return (int)Math.pow(2,target-1);
     }
